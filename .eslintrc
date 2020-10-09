@@ -4,7 +4,10 @@
           "airbnb",
           "prettier",
           "prettier/react"
+
     ],
+    "env":{"jest": true},
+    "globals": {"document": true},
     "rules":{
         "react/jsx-filename-extension":[
             1,
